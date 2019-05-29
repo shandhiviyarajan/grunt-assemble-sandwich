@@ -1,0 +1,67 @@
+---
+layout : default.html
+title : Home page | Brusselslife.be | Belgium life style site | Brussels news, restaurants, shopping, events & happenings.
+---
+
+
+<!-- home search -->
+{{> home-search }}
+<!--{{> quick-3-blocks}}-->
+<article class="page-home">
+
+    {{> left-float-menu }}
+
+    {{> home-block-one }}
+
+    {{> home-block-agenda }}
+
+    {{> block-three }}
+
+    {{> home-block-four }}
+
+    {{> home-block-article }}
+
+    {{> home-block-address }}
+
+    {{> home-block-article-address }}
+
+    <section class="container">
+
+
+        <!-- Block 4 | Full block image  -->
+        {{> block-four}}
+
+        <!-- Block 5 | Interviews  -->
+        {{> block-five}}
+        <!-- Block 6 | Interviews  -->
+        {{> block-six}}
+        <!-- Block 7 | Near by address -->
+        {{> block-seven}}
+    </section>
+</article>
+
+
+<div class="container bg-transparent ">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="ui info message my-4">
+                <i class="close fa fa-close"></i>
+                <div class="header">
+                    You must register before you can do that!
+                </div>
+                Visit our registration page, then try again
+                <ul class="list">
+                    <li>It's good to see you again.</li>
+                    <li>Did you know it's been a while?</li>
+                </ul>
+            </div>
+
+            <div class="ui compact message my-4">
+                <i class="close fa fa-close"></i>
+                <p>Get all the best inventions in your e-mail every day. Sign up now!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{assets}}build/home.js"></script>
